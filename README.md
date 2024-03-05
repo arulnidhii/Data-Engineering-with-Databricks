@@ -61,14 +61,14 @@ Worked with a sample of raw Kafka data written as JSON files.
 
 ## Notebook 4 - Schemas, Tables on Databricks, Setting up Delta Table, Load Data
 ## Learning Outcomes
-- Use Spark SQL DDL to define schemas and tables
-- Describe how the **`LOCATION`** keyword impacts the default storage directory
-- Use CTAS statements to create Delta Lake tables
-- Create new tables from existing views or tables
-- Enrich loaded data with additional metadata
-- Declare table schema with generated columns and descriptive comments
+- Used Spark SQL DDL to define schemas and tables
+- Described how the **`LOCATION`** keyword impacts the default storage directory
+- Used CTAS statements to create Delta Lake tables
+- Created new tables from existing views or tables
+- Enriched loaded data with additional metadata
+- Declared table schema with generated columns and descriptive comments
 - Set advanced options to control data location, quality enforcement, and partitioning
-- Create shallow and deep clones
+- Created **shallow and deep clones**
 - Overwrite data tables using **`INSERT OVERWRITE`**
 - Append to a table using **`INSERT INTO`**
 - Append, update, and delete from a table using **`MERGE INTO`**

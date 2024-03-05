@@ -57,5 +57,4 @@ Worked with a sample of raw Kafka data written as JSON files.
 ## Contents
 - User Defined Function Def
 - Scoping and Permissions of SQL UDFs
-- Control Flow Functions
-- 
+- Control Flow Functions.

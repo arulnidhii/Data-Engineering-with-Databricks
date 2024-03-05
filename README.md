@@ -27,3 +27,35 @@ Worked with a sample of raw Kafka data written as JSON files.
  - Registering Tables on External Data with Read Options.
  - Limits of Tables with External Data Sources.
  - Extracting Data from SQL Databases.
+
+## Notebook 2: Data Cleaning and Transformations
+## Learning Outcomes
+- Summarized datasets and described null behaviors
+- Retrieved and removed duplicates
+- Validated datasets for expected counts, missing values, and duplicate records
+- Applied common transformations to clean and transform data
+- Used **`.`** and **`:`** syntax to query nested data
+- Parsed JSON strings into structs
+- Flatten and unpack arrays and structs
+- Combined datasets using joins
+- Reshaped data using pivot tables
+
+## Contents
+- Inspect Missing Data
+- Deduplicate Rows
+- Deduplicate Rows Based on Specific Columns
+- Validate Datasets
+- Date Format and Regex
+- Complex Tranformations : Manipulate complex type (nested data), Manipulate Array, Combine and Reshape Data (Join, pivot tables)
+
+## Notebook 3 - SQL UDF's
+## Learning Outcomes
+- Defined and registering SQL UDFs- Described the security model used for sharing SQL UDFs
+- Used **`CASE`** / **`WHEN`** statements in SQL code
+- Leveraged **`CASE`** / **`WHEN`** statements in SQL UDFs for custom control flow
+
+## Contents
+- User Defined Function Def
+- Scoping and Permissions of SQL UDFs
+- Control Flow Functions
+- 

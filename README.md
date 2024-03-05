@@ -1,8 +1,9 @@
-## Data-Engineering-with-Databricks 
-My Personel DA handbook/Practice Material
-
-I practised the core Databricks funtionalities 
-## Transformation of Data With Spark, Managed Data with Delta Lake, Built Data Pipelines with Delta Live Tables, Managed Data Access with Unity Catalog.
+## Data-Engineering-with-Databricks (My Personel DA handbook/Practice Material)
+## I practised the core Databricks funtionalities :
+## 1. Transformation of Data With Spark,
+## 2. Managed Data with Delta Lake,
+## 3. Built Data Pipelines with Delta Live Tables,
+## 4. Managed Data Access with Unity Catalog.
 
 ## Notebook 1: Data Extraction
 Worked with a sample of raw Kafka data written as JSON files. 

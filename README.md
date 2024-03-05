@@ -3,7 +3,7 @@
 ## I practised the core Databricks funtionalities :
 
 ## 1. Transformation of Data With Spark, (Notebooks 1 -3 )
-## 2. Managed Data with Delta Lake,
+## 2. Managed Data with Delta Lake, (Notebooks 4 and 5)
 ## 3. Built Data Pipelines with Delta Live Tables,
 ## 4. Managed Data Access with Unity Catalog.
 

@@ -85,3 +85,13 @@ Worked with a sample of raw Kafka data written as JSON files.
 - Enrich Tables with Additional Options and Metadata
 - Cloning Delta Lake Tables
 - Append Rows, Merge Updates, Insert-Only Merge for Deduplication, Load Incrementally
+
+## Notebook 5 - Versioning, Vaccuming, and Optimization
+
+## Learning Outcome:
+* Used **`OPTIMIZE`** to compact small files
+* Used **`ZORDER`** to index tables
+* Described the directory structure of Delta Lake files
+* Reviewed a history of table transactions
+* Queried and roll back to previous table version
+* Clean up stale data files with **`VACUUM`**

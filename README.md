@@ -73,3 +73,15 @@ Worked with a sample of raw Kafka data written as JSON files.
 - Append to a table using **`INSERT INTO`**
 - Append, update, and delete from a table using **`MERGE INTO`**
 - Ingest data incrementally into tables using **`COPY INTO`**
+
+## Contents
+- Schemas
+- Managed Tables, External Tables
+- Setting Up Delta Tables
+- Create Table as Select (CTAS)
+- Filtering and Renaming Columns from Existing Tables
+- Declare Schema with Generated Columns
+- Add a Table Constraint
+- Enrich Tables with Additional Options and Metadata
+- Cloning Delta Lake Tables
+- Append Rows, Merge Updates, Insert-Only Merge for Deduplication, Load Incrementally

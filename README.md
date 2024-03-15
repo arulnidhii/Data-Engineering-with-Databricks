@@ -8,7 +8,7 @@
 ## 4. Managed Data Access with Unity Catalog.
 
 ## Notebook 1: Data Extraction
-Worked with a sample of raw Kafka data written as JSON files. 
+Worked with a sample of raw Kafka JSON files. 
 ## My Learning Outcomes
 - Used Spark SQL to directly query data files.
 - Create tables against external data sources for various file formats.

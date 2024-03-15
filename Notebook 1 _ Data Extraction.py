@@ -1,36 +1,3 @@
-# Databricks notebook source
-# DBTITLE 0,--i18n-a0d28fb8-0d0f-4354-9720-79ce468b5ea8
-# MAGIC %md
-# MAGIC
-# MAGIC
-# MAGIC # Extracting Data Directly From Files with Spark SQL
-# MAGIC
-# MAGIC ## My Learning Outcomes
-# MAGIC - Used Spark SQL to directly query data files
-# MAGIC - Create tables against external data sources for various file formats
-# MAGIC - Describe default behavior when querying tables defined against external sources
-# MAGIC - Applied Layer views and CTEs to make referencing data files easier
-# MAGIC - Leveraged **`text`** and **`binaryFile`** methods to review raw file contents
-
-# COMMAND ----------
-
-# MAGIC %run ./Includes/test-Setup-02.1
-
-# COMMAND ----------
-
-# DBTITLE 0,--i18n-480bfe0b-d36d-4f67-8242-6a6d3cca38dd
-# MAGIC %md
-# MAGIC
-# MAGIC
-# MAGIC ## Data Overview
-# MAGIC
-# MAGIC For learning purposes, worked with a sample of raw Kafka data written as JSON files. 
-# MAGIC
-# MAGIC Each file contains all records consumed during a 5-second interval, stored with the full Kafka schema as a multiple-record JSON file.
-
-# COMMAND ----------
-
-
 print(DA.paths.kafka_events)
 
 files = dbutils.fs.ls(DA.paths.kafka_events)
